@@ -55,18 +55,13 @@
     &__logo {
         margin: 10px;
         display: flex;
-        width: 350;
-        height: auto;
         justify-content: center;
         align-content: center;
         // border: 2px solid red;
-        overflow: hidden;
+        // overflow: hidden;
         & div {
-            justify-content: center;
-            align-content: center;
             text-align: center;
             margin: 30px 5px;
-            // border: 2px solid red;
             width: 370px;
             height: 230px;
         }
