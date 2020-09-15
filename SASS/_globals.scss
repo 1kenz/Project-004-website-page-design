@@ -1,10 +1,11 @@
 $primarycolor: #35424A;
 $secondarycolor: #A9508B;
-
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     height: 100%;
 }
