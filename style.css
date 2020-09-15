@@ -502,14 +502,13 @@ body {
   margin: 1px auto;
   height: 140px;
   text-align: center;
-  text-justify: center;
   font-size: 15px;
   line-height: 23px;
   font-weight: 400;
   color: #000;
   background-color: #FFFAF0;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
+  border-top: 3px solid #A9508B;
 }
 .footer__container {
   margin: 40px auto;

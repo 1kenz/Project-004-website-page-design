@@ -10,8 +10,8 @@
     font-weight: 400;
     color: #000;
     background-color: #FFFAF0;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    border-top: 3px solid $secondarycolor;
     &__container {
         margin: 40px auto;
     }
