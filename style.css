@@ -346,6 +346,7 @@ html, body {
 }
 
 .header {
+  box-sizing: border-box;
   display: flex;
   height: 100px;
   padding: 20px;
@@ -512,6 +513,9 @@ html, body {
 }
 
 .footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
   height: 140px;
   font-size: 15px;
   line-height: 23px;
@@ -523,4 +527,11 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+.footer div a img {
+  height: 40px;
+  width: 200px;
+  margin: 0 auto;
+  justify-content: center;
 }
