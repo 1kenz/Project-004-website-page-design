@@ -496,6 +496,7 @@ html, body {
   font-size: 15px;
   line-height: 23px;
   align-items: flex-start;
+  height: 65vh;
 }
 .section__main--about {
   text-align: justify;
