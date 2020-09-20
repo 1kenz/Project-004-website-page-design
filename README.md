@@ -1,4 +1,4 @@
-## https://xkendx.github.io/website-page-design/
+## https://xkendx.github.io/Project-003-website-page-design/
 
 # Project-003 : Website Page Design (HC-04)
 
