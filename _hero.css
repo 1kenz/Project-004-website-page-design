@@ -1,6 +1,6 @@
 .section__hero {
   background-image: url(./images/showcase.jpg);
-  height: 50%;
+  height: 52%;
   padding: 1px;
 }
 .section__hero--head {
@@ -8,8 +8,7 @@
   font-size: 55px;
   line-height: 83px;
   color: #fff;
-  padding: 1px;
-  margin: 110px auto 30px;
+  margin: 7% auto 2%;
   text-align: center;
 }
 .section__hero--para {
@@ -18,15 +17,16 @@
   line-height: 30px;
   color: #fff;
   text-align: center;
+  margin: 0 10%;
 }
 .section__newsletter {
   display: flex;
   justify-content: space-around;
-  height: 100px;
+  height: 10%;
   font-size: 15px;
   line-height: 23px;
   font-weight: 400;
-  padding: 10px;
+  padding: 0.8%;
   color: #fff;
   background-color: #35424A;
 }
@@ -37,16 +37,18 @@
   font-weight: 700;
 }
 .section__newsletter--email {
+  display: flex;
   margin: auto;
   align-items: center;
 }
 .section__newsletter--email-input {
-  width: 260px;
-  height: 40px;
+  width: 40vh;
+  height: 4vh;
 }
 .section__newsletter--email-button {
-  width: 100px;
-  height: 40px;
+  width: 30%;
+  height: 4.5vh;
+  margin-left: 2%;
   background-color: #A9508B;
   color: white;
   border: none;
@@ -64,15 +66,15 @@
   height: 230px;
 }
 .section__logo img {
-  width: 100px;
-  height: 100px;
+  width: 6.5vw;
+  height: 12vh;
   margin: 0;
 }
 .section__logo h3 {
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  margin: 25px;
+  margin: 5%;
   color: #000;
 }
 .section__logo p {
@@ -80,27 +82,4 @@
   line-height: 23px;
   font-weight: 400;
   color: #000;
-}
-
-.section__main {
-  display: flex;
-  margin: 10px 125px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 23px;
-  align-items: flex-start;
-}
-.section__main--about {
-  text-align: justify;
-  margin-right: 55px;
-}
-.section__main--about :nth-child(3) {
-  background-color: #35424A;
-  color: #fff;
-  padding: 10px;
-}
-.section__main--what {
-  background-color: #35424A;
-  color: #fff;
-  padding: 10px;
 }
